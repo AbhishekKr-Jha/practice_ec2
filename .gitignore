@@ -3,6 +3,7 @@
 .env
 **/.env
 *.sql
+*.pem
 
 # 📦 Node.js Dependencies
 node_modules/
