@@ -1,0 +1,35 @@
+
+# Node.js
+node_modules/
+dist/          # Compiled JavaScript files (if using TypeScript)
+build/         # Another common build output folder
+.env           # Environment variables (VERY IMPORTANT!)
+.env.local     # Local environment variables
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# IDE and OS specific files
+.vscode/        # VS Code settings (optional, if you want to ignore editor settings)
+.idea/          # IntelliJ IDEA projects
+.DS_Store       # macOS specific
+Thumbs.db       # Windows specific
+
+# Prisma
+/prisma/migrations/*.sql  # Optional: if you don't want to commit generated SQL files (but often you do)
+/prisma/generated/        # Older Prisma client output location (less common now)
+/prisma/dev.db            # SQLite development database file (if using SQLite)
+
+# Test coverage
+coverage/
+
+# Misc
+*.log
+*.log.*
+.parcel-cache/
+.eslintcache
+/generated/prisma
