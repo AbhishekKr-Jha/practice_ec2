@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://35.174.114.0:5000/backend/api/v1';
+const baseUrl = 'http://34.232.239.243:5000/backend/api/v1'; 
 
 // GET
 const getAxiosCall = async (url, headers = {},params={}) => {
